@@ -13,6 +13,10 @@ body {
     justify-content: center;
     align-items: center;
     background:linear-gradient(45deg,#0a0a0a ,#3a4452 );
+    border-top:3px solid blueviolet;
+    border-left:3px solid blueviolet;
+    border-right:3px solid blueviolet;
+    border-bottom:3px solid blueviolet;
     
 }
 .calculator{
@@ -26,14 +30,16 @@ input{
     width: 320px ;
     border: none;    
     border-radius: 3vh;
-    padding: 24px;
+    padding: 29px;
     margin: 10px;
+    margin-top: auto;
     background: transparent;
     box-shadow:0px 3px 15px rgba(84, 84, 84, .5) ;
     font-size:40px;
     text-align: right;
     cursor: pointer;
     color: #fff;
+    border-top: 3px solid green;
 }
 input::placeholder{
     color: #fff;
@@ -52,7 +58,7 @@ button{
     cursor: pointer;
 }
 .op{
-    color: orange;
+    color:pink;
 }
 .eq{
     background-color: orange;
